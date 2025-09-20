@@ -39,7 +39,3 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 - FE changes: https://github.com/AliaksandrVarachai/shop-react-redux-cloudfront/pull/1/files
 - CloudFront URL: https://d2kooluge9l1su.cloudfront.net
 - Direct access to S3 **is forbidden**: https://bender-rodriguez-bucket-2.s3.us-west-1.amazonaws.com
-
-Add and configure AWS CDK and necessary CDK constructs. Add necessary npm script(s) to synthesize, build and deploy your app from your machine in an automated way. Validate if everything functions as expected NOTE: After uploading an application's build to the S3 bucket you need to manually create a CloudFront invalidation.
-Destroy the created AWS infrastructure (S3 bucket and CloudFront distribution) from the previous part and steps. Make sure nothing is left.
-Add and configure the necessary AWS CDK constructs as per requirements. Create necessary npm scripts to build your application, upload it to your S3 bucket, and invalidate the CloudFront cache from your local machine in an automated manner. Check if everything operates smoothly and all updates are reflected on your website.
