@@ -9,7 +9,8 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk-synth": "cdk synth",
-    "cdk-deploy": "cdk deploy"
+    "cdk-deploy": "cdk deploy",
+    "copy-resources": "cp -r ../shop-react-redux-cloudfront/dist/* ./resources/build"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
