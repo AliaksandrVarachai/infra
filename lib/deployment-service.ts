@@ -21,7 +21,7 @@ export class DeploymentService extends Construct {
 
         const distribution = new aws_cloudfront.Distribution(
             this,
-            'CloudfrontDistribution',
+            'ShopFrontendDistribution',
             {
                 defaultBehavior: {
                     origin: aws_cloudfront_origins.S3BucketOrigin.withOriginAccessControl(
@@ -40,7 +40,7 @@ export class DeploymentService extends Construct {
             }
         );
 
-        new aws_s3_deployment.BucketDeployment(this, 'BucketDeployment', {
+        new aws_s3_deployment.BucketDeployment(this, 'ShopFrontendBucketDeployment', {
             sources: [aws_s3_deployment.Source.asset(path)],
             destinationBucket: hostingBucket,
             distribution,

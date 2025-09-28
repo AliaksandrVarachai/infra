@@ -39,3 +39,8 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 - FE changes: https://github.com/AliaksandrVarachai/shop-react-redux-cloudfront/pull/1/files
 - CloudFront URL: https://d2kooluge9l1su.cloudfront.net
 - Direct access to S3 **is forbidden**: https://bender-rodriguez-bucket-2.s3.us-west-1.amazonaws.com
+
+## Task 3.1.
+
+- S3 Bucket: https://deployfrontendshopstack-deploymentfrontendbucket67-glgscicxl0xa
+- CloudFront: https://dn633dlm50lmu.cloudfront.net

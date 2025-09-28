@@ -1,4 +1,5 @@
 # CloudFormation template in YAML
+# NOT USED
 AWSTemplateFormatVersion: '2010-09-09'
 Description: Template to create an S3 bucket, OAC and CloudFront Distribution
 Resources:

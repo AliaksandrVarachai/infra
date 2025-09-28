@@ -3,11 +3,11 @@
 // import * as Infra from '../lib/infra-stack';
 
 // example test. To run these tests, uncomment this file along with the
-// example resource in lib/deploy-web-app-stack.ts
+// example resource in lib/deploy-frontend-shop-stack.ts
 test('SQS Queue Created', () => {
 //   const app = new cdk.App();
 //     // WHEN
-//   const stack = new Infra.DeployWebAppStack(app, 'MyTestStack');
+//   const stack = new Infra.DeployFrontendShopStack(app, 'MyTestStack');
 //     // THEN
 //   const template = Template.fromStack(stack);
 
