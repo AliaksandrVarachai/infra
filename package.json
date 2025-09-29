@@ -8,8 +8,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk-synth": "cdk synth",
-    "cdk-deploy": "cdk deploy",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
     "copy-resources": "rm -r resources/build/* && cp -r ../shop-react-redux-cloudfront/dist/* resources/build"
   },
   "devDependencies": {
