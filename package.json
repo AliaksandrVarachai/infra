@@ -10,7 +10,8 @@
     "test": "jest",
     "synth": "cdk synth",
     "deploy": "cdk deploy",
-    "copy-resources": "rm -r resources/build/* && cp -r ../shop-react-redux-cloudfront/dist/* resources/build"
+    "update-resources": "rm -r resources/build/* && cp -r ../shop-react-redux-cloudfront/dist/* resources/build",
+    "update-deploy": "npm run update-resources && npm run deploy"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
